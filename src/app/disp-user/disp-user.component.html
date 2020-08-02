@@ -1,0 +1,44 @@
+<p>disp-user works!</p>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="../../assets/images/c1.jpg" class="card-img-top" alt="..."> -->
+          <img [src]="data?.avatar" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Output</h5>
+            <div class="card-text">
+                
+                  <div class="form-group">
+                    <p class="alert alert-success">Id: {{data?.id}}</p>
+                  </div>
+                  <div class="form-group">
+                    <p class="alert alert-success">First Name: {{data?.first_name}}</p>
+                  
+                    
+                  </div>
+                  <div class="form-group">
+                    <p class="alert alert-success">Last Name: {{data?.last_name}}</p>
+                    <!-- <input type="text" placeholder="Last Name" class="form-control" formControlName="lnm"/> -->
+                  </div>
+                  <div class="form-group">
+                    <p class="alert alert-success">Email: {{data?.email}}</p>
+                    <!-- <input type="text" placeholder="Last Name" class="form-control" formControlName="lnm"/> -->
+                  </div>
+      
+      
+                  <div class="form-group">
+                    <input type="submit" value="Go to Step 2 " class="btn btn-warning"/>
+                  </div>
+                
+            </div>
+           
+            
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
